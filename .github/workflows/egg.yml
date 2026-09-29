@@ -1,0 +1,12 @@
+name: egg
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: print hello
+        run: echo "hello github actions"
