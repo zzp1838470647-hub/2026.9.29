@@ -6,7 +6,7 @@ on:
     branches: [main]
     paths:
       - 'Dockerfile'
-      - '.github/workflows/build-image.yml'
+      - '.github/workflows/buildimage.yml'
 
 # 必须设置这个权限，否则无法推送到 GitHub 的镜像仓库 (GHCR)
 permissions:
